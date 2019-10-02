@@ -27,10 +27,14 @@ const StoriesContainer = () => {
 
   const previousPage = () => {
     setCurrentPage(currentPage-1)
+    setCurrentPageStart(currentPage-5)
+    setCurrentPageEnd(currentPage+4)
   }
 
   const nextPage = () => {
     setCurrentPage(currentPage+1)
+    setCurrentPageStart(currentPage-5)
+    setCurrentPageEnd(currentPage+4)
   }
 
   const indexOfTheLastStory = currentPage * storyPerPage;
