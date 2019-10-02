@@ -1,0 +1,38 @@
+.storyDiv {
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(206, 201, 201);
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    margin: 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    background-color: rgb(245, 200, 87);
+    padding: 0;
+    width: 100%;
+    line-height: 1.3em;
+}
+
+.autGen {
+    width: 100%;
+    padding: 5px 0px;;
+    margin: 0;
+}
+
+.by {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.gen {
+    margin-left: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
