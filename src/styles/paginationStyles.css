@@ -17,18 +17,18 @@
     height: 20px;
     text-align: center;
     list-style: none;
-    margin: 0px 5px 0px 5px;
+    margin: 5px;
     cursor: pointer;
 }
 
 .previous {
     list-style: none;
-    margin: 0px 10px 0px 0px;
+    margin: 5px 10px 5px 0px;
     cursor: pointer;
 }
 
 .next {
     list-style: none;
-    margin: 0px 0px 0px 10px;
+    margin: 5px 0px 5px 10px;
     cursor: pointer;
 }
